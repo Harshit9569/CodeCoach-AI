@@ -1,8 +1,8 @@
-# 🚀 CodeCoach AI
+# CodeCoach AI
 
 An AI-powered interview preparation platform that analyzes your resume and generates personalized technical and behavioral questions, identifies skill gaps, and provides an actionable preparation plan to help you land your dream job!
 
-## ✨ Features
+## Features
 
 - **Resume Analysis**: Upload your resume in PDF format, and our AI will extract key information and skills.
 - **Personalized Interview Questions**: Get tailored technical and behavioral questions based on your experience and the job role you are targeting.
@@ -11,7 +11,7 @@ An AI-powered interview preparation platform that analyzes your resume and gener
 - **Interview Report Generation**: Download a comprehensive report of your interview analysis.
 - **Secure Authentication**: User registration and login securely handled with JWT and cookie-based authentication.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 - **React.js**: User interface built with React hooks and context.
@@ -27,7 +27,7 @@ An AI-powered interview preparation platform that analyzes your resume and gener
 - **Multer**: Handling multipart/form-data for resume uploads.
 - **Puppeteer & pdf-parse**: For PDF processing and generation.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -72,7 +72,7 @@ An AI-powered interview preparation platform that analyzes your resume and gener
    npm run dev
    ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -99,7 +99,7 @@ An AI-powered interview preparation platform that analyzes your resume and gener
         └── main.jsx         # React application entry point
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
