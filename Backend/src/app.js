@@ -10,7 +10,10 @@ app.get("/", (req, res) => {
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: [
+        "http://localhost:5173",
+        "https://code-coach-ai.vercel.app"
+    ],
     credentials: true
 }))
 
