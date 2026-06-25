@@ -3,6 +3,9 @@ const cookieParser = require("cookie-parser")
 const cors = require("cors")
 
 const app = express()
+app.get("/", (req, res) => {
+    res.send("CodeCoach AI Backend is Running 🚀");
+});
 
 app.use(express.json())
 app.use(cookieParser())
